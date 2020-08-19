@@ -24,7 +24,7 @@
     "php": "^7.1.0",
     "illuminate/support": "^5.4",
     "illuminate/console": "^5.4",
-    "predis/predis": "^2.0"
+    "predis/predis": "^1.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.0",
