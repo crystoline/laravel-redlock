@@ -1,10 +1,10 @@
 <?php
 
-namespace ThatsUs\RedLock\Traits;
+namespace Crystoline\RedLock\Traits;
 
-use ThatsUs\RedLock\Facades\RedLock;
+use Crystoline\RedLock\Facades\RedLock;
 use Illuminate\Database\Eloquent\Model;
-use ThatsUs\RedLock\Exceptions\QueueWithoutOverlapRefreshException;
+use Crystoline\RedLock\Exceptions\QueueWithoutOverlapRefreshException;
 
 trait QueueWithoutOverlap
 {

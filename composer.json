@@ -1,5 +1,5 @@
 {
-  "name": "thatsus/laravel-redlock",
+  "name": "crystoline/laravel-redlock",
   "description": "Redis distributed locks for laravel",
   "license": "MIT",
   "keywords": ["redlock", "laravel redis lock", "redis lock"],
@@ -15,13 +15,16 @@
     {
       "name": "Potsky",
       "email": "potsky@me.com"
+    },{
+      "name": "crystoline",
+      "email": "crystoline@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/support": "^5.0",
-    "illuminate/console": "^5.0",
-    "predis/predis": "^1.1"
+    "php": "^7.1.0",
+    "illuminate/support": "^5.4",
+    "illuminate/console": "^5.4",
+    "predis/predis": "^2.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.0",
@@ -30,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ThatsUs\\RedLock\\": "src/"
+      "Crystoline\\RedLock\\": "src/"
     }
   },
   "autoload-dev": {
@@ -41,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ThatsUs\\RedLock\\RedLockServiceProvider"
+        "Crystoline\\RedLock\\RedLockServiceProvider"
       ]
     }
   },
@@ -58,6 +61,5 @@
       "phpunit | tee phpunit.2.log",
       "cat phpunit.*.log"
     ]
-  },
-  "minimum-stability": "stable"
+  }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace ThatsUs\RedLock;
+namespace Crystoline\RedLock;
 
 use Mockery;
 use TestCase;

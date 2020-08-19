@@ -1,9 +1,9 @@
 <?php
 
-namespace ThatsUs\RedLock;
+namespace Crystoline\RedLock;
 
 use Illuminate\Support\ServiceProvider;
-use ThatsUs\RedLock\RedLock;
+use Crystoline\RedLock\RedLock;
 
 class RedLockServiceProvider extends ServiceProvider{
     /**

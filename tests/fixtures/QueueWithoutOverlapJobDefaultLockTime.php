@@ -1,6 +1,6 @@
 <?php
 
-namespace ThatsUs\RedLock\Traits;
+namespace Crystoline\RedLock\Traits;
 
 /*
 |--------------------------------------------------------------------------
